@@ -571,7 +571,7 @@ elif step == 3:
         </div>""", unsafe_allow_html=True)
 
         with st.container():
-        st.markdown('<div style="margin:0 12px;background:#FFFFFF;border:1.5px solid #E0E3E8;border-top:0;border-radius:0 0 12px 12px;padding:4px 14px 14px;margin-top:-2px;">', unsafe_allow_html=True)
+            st.markdown('<div style="margin:0 12px;background:#FFFFFF;border:1.5px solid #E0E3E8;border-top:0;border-radius:0 0 12px 12px;padding:4px 14px 14px;margin-top:-2px;">', unsafe_allow_html=True)
             active = st.checkbox(
                 f"Include {day_name} in report",
                 value=d.get("active", False),
