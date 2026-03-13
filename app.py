@@ -529,7 +529,7 @@ elif step == 3:
         st.session_state.days = [
             {"active": False, "day_date": sd + timedelta(days=i),
              "straight": None, "overtime": None, "doubletime": None,
-             "travel_time": None, "working": None, "wait": None, "description": ""}
+             "travel_time": None, "working": None, "description": ""}
             for i in range(7)
         ]
     days = st.session_state.days
