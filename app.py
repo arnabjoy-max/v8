@@ -604,8 +604,8 @@ elif step == 3:
                     v = st.number_input("W",  min_value=0.0, max_value=24.0, value=None, step=0.5, key=f"w_{i}",  format="%.1f")
                     st.session_state.days[i]["working"] = v
 
-                v = st.number_input("Wait", min_value=0.0, max_value=24.0, value=None, step=0.5, key=f"wt_{i}", format="%.1f")
-                st.session_state.days[i]["wait"] = v
+                #v = st.number_input("Wait", min_value=0.0, max_value=24.0, value=None, step=0.5, key=f"wt_{i}", format="%.1f")
+                #st.session_state.days[i]["wait"] = v
 
             st.markdown('</div>', unsafe_allow_html=True)
 
