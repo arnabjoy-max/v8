@@ -488,7 +488,7 @@ elif step == 2:
     st.markdown('</div>', unsafe_allow_html=True)
 
     fname = generate_filename(
-        st.session_state.get("project_num",""), start_date,
+        st.session_state.get("project_num",), start_date,
         emp_no, last_name, st.session_state.get("report_type","Other (O)"))
     st.markdown(f"""
     <div style="padding:0 12px;">
