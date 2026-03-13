@@ -259,6 +259,14 @@ label, .stTextInput label, .stSelectbox label,
   letter-spacing: 1.2px !important;
   text-transform: uppercase !important;
 }
+/* ── Checkbox override — readable dark text ── */
+.stCheckbox label, .stCheckbox span p, .stCheckbox > label > div {
+  color: #1A1A2E !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.3px !important;
+  text-transform: none !important;
+}
 
 /* ── Buttons ── */
 .stButton > button {
