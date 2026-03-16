@@ -379,6 +379,8 @@ def populate_fir_excel(data):
 
     ws.cell(row=47, column=6).value = data.get("additional_comments", "")
     out = io.BytesIO()
+    wb.calculation.calcMode = "auto"
+    wb.calculation.fullCalcOnLoad = True
     wb.save(out)
     out.seek(0)
     return out.read()
